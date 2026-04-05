@@ -1,22 +1,24 @@
-# Library Management System
+# 📚 Library Management System
 
 A Python-based console application to manage books using SQLite.
 
-## Features
+## 🚀 Features
 - Add books
-- View books
-- Issue and return books
+- View all books
+- Issue books
+- Return books
 - Search books
 - Delete books
 
-## Tech Stack
+## 🛠 Tech Stack
 - Python
 - SQLite
 
-## Concepts Used
+## 🧠 Concepts Used
 - CRUD operations
 - Database integration
 - Functions and loops
 
-## Run
+## ▶️ How to Run
+```bash
 python main.py
