@@ -82,7 +82,7 @@ def view_books():
 
     for book in books:
         status = "Available" if book[3] == 1 else "Issued"
-        print(f"{book[0]} | {book[1]} | {book[2]} | {status}")
+        print(f"ID: {book[0]} | Title: {book[1]} | Author: {book[2]} | Status: {status}")
 
 def issue_book():
     book_id = int(input("Enter book ID to issue: "))
